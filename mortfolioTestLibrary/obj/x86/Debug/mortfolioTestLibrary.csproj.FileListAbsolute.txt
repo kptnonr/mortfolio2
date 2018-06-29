@@ -1,0 +1,7 @@
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\mortfolioTest\mortfolioTestLibrary\bin\Debug\mortfolioTestLibrary.rxtmg
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\mortfolioTest\mortfolioTestLibrary\bin\Debug\mortfolioTestLibrary.dll
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\mortfolioTest\mortfolioTestLibrary\bin\Debug\mortfolioTestLibrary.pdb
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\mortfolioTest\mortfolioTestLibrary\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\mortfolioTest\mortfolioTestLibrary\obj\x86\Debug\mortfolioTestLibrary.csprojResolveAssemblyReference.cache
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\mortfolioTest\mortfolioTestLibrary\obj\x86\Debug\mortfolioTestLibrary.dll
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\mortfolioTest\mortfolioTestLibrary\obj\x86\Debug\mortfolioTestLibrary.pdb
