@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testsuite
+	name="mortfolioTest"
+	tests="1"
+	failures="1"
+	errors="1"
+	time="61"
+	disabled="0"
+	skipped="0"
+	timestamp="2018-06-29T12:54:19"
+	hostname="OPTIIMTEST">
+	<testcase
+		name="TestCase"
+		time="61"
+		classname="mortfolioTest">
+		<error
+			message="The test case has errors."><![CDATA[---[Error] Failed to find item 'mortfolioTestLibraryRepository.LoginPage.MainContentUserNameI'.<br/>No element found for path '/dom[@domain='mortfolio.optiim.com']//input[#'MainContent_UserName_I']' within 1m.---
+	[modulepath] mortfolioTest\TestCase\Login (mortfolioTestLibrary)
+	[stacktrace]    at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at mortfolioTestLibrary.mortfolioTestLibraryRepositoryFolders.LoginPageAppFolder.get_MainContentUserNameI() in C:\JenkinsDockerWorkspace\workspace\mortfolio\mortfolioTestLibrary\mortfolioTestLibraryRepository.cs:line 151
+   at mortfolioTestLibrary.Login.Ranorex.Core.Testing.ITestModule.Run() in C:\JenkinsDockerWorkspace\workspace\mortfolio\mortfolioTestLibrary\Login.cs:line 109
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)
+	[codefile] C:\JenkinsDockerWorkspace\workspace\mortfolio\mortfolioTestLibrary\Login.cs
+	[codeline] 109
+	[type] repoitem
+	[path] /dom[@domain='mortfolio.optiim.com']//input[#'MainContent_UserName_I']
+	[itempath] .//input[#'MainContent_UserName_I']
+	[fullname] mortfolioTestLibraryRepository.LoginPage.MainContentUserNameI
+	[id] b1e84e428a40431081d07188a73a29ef
+	[timeout] 60000
+	[loglvl] Error
+	[itemindex] 0
+
+]]></error>
+		<system-err><![CDATA[---[Error] Failed to find item 'mortfolioTestLibraryRepository.LoginPage.MainContentUserNameI'.<br/>No element found for path '/dom[@domain='mortfolio.optiim.com']//input[#'MainContent_UserName_I']' within 1m.---
+	[modulepath] mortfolioTest\TestCase\Login (mortfolioTestLibrary)
+	[stacktrace]    at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at mortfolioTestLibrary.mortfolioTestLibraryRepositoryFolders.LoginPageAppFolder.get_MainContentUserNameI() in C:\JenkinsDockerWorkspace\workspace\mortfolio\mortfolioTestLibrary\mortfolioTestLibraryRepository.cs:line 151
+   at mortfolioTestLibrary.Login.Ranorex.Core.Testing.ITestModule.Run() in C:\JenkinsDockerWorkspace\workspace\mortfolio\mortfolioTestLibrary\Login.cs:line 109
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)
+	[codefile] C:\JenkinsDockerWorkspace\workspace\mortfolio\mortfolioTestLibrary\Login.cs
+	[codeline] 109
+	[type] repoitem
+	[path] /dom[@domain='mortfolio.optiim.com']//input[#'MainContent_UserName_I']
+	[itempath] .//input[#'MainContent_UserName_I']
+	[fullname] mortfolioTestLibraryRepository.LoginPage.MainContentUserNameI
+	[id] b1e84e428a40431081d07188a73a29ef
+	[timeout] 60000
+	[loglvl] Error
+	[itemindex] 0
+
+]]></system-err>
+		<system-out><![CDATA[---[Info] Current variable values:
+$url = 'http://mortfolio.optiim.com'---
+---------------------------------------------------------------------------
+---[Info] Opening web site URL in variable $url with browser 'Chrome' in maximized mode.---
+	[itemindex] 0
+	[codefile] C:\JenkinsDockerWorkspace\workspace\mortfolio\mortfolioTestLibrary\OpenBrowser.cs
+-------------------------------------------------------------------------------------------
+---[Info] Waiting for 0ms.---
+	[timeout] 0
+-----------------------------
+---[Info] Current variable values:
+$userName = 'onur.ustunay', $password = '14531071'---
+-----------------------------------------------------------------------------------------
+---[Info] Key sequence from variable '$userName' with focus on 'LoginPage.MainContentUserNameI'.---
+	[type] repoitem
+	[path] /dom[@domain='mortfolio.optiim.com']//input[#'MainContent_UserName_I']
+	[itempath] .//input[#'MainContent_UserName_I']
+	[fullname] mortfolioTestLibraryRepository.LoginPage.MainContentUserNameI
+	[id] b1e84e428a40431081d07188a73a29ef
+	[timeout] 60000
+	[codefile] C:\JenkinsDockerWorkspace\workspace\mortfolio\mortfolioTestLibrary\Login.cs
+	[itemindex] 0
+---------------------------------------------------------------------------------------------------
+---[Error] Failed to find item 'mortfolioTestLibraryRepository.LoginPage.MainContentUserNameI'.<br/>No element found for path '/dom[@domain='mortfolio.optiim.com']//input[#'MainContent_UserName_I']' within 1m.---
+	[stacktrace]    at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.<>c__DisplayClass75_0`1.<Find>b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at mortfolioTestLibrary.mortfolioTestLibraryRepositoryFolders.LoginPageAppFolder.get_MainContentUserNameI() in C:\JenkinsDockerWorkspace\workspace\mortfolio\mortfolioTestLibrary\mortfolioTestLibraryRepository.cs:line 151
+   at mortfolioTestLibrary.Login.Ranorex.Core.Testing.ITestModule.Run() in C:\JenkinsDockerWorkspace\workspace\mortfolio\mortfolioTestLibrary\Login.cs:line 109
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)
+	[codefile] C:\JenkinsDockerWorkspace\workspace\mortfolio\mortfolioTestLibrary\Login.cs
+	[type] repoitem
+	[path] /dom[@domain='mortfolio.optiim.com']//input[#'MainContent_UserName_I']
+	[itempath] .//input[#'MainContent_UserName_I']
+	[fullname] mortfolioTestLibraryRepository.LoginPage.MainContentUserNameI
+	[id] b1e84e428a40431081d07188a73a29ef
+	[timeout] 60000
+	[itemindex] 0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+	</testcase>
+</testsuite>

@@ -2,12 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # Ranorex Studio 8.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mortfolioTest", "mortfolioTest\mortfolioTest.csproj", "{DF2E191D-00DB-48E5-9378-338D169E407E}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9FD1A057-EAF9-4D03-B977-26A461044940}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mortfolioTest", "mortfolioTest\mortfolioTest.csproj", "{DF2E191D-00DB-48E5-9378-338D169E407E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mortfolioTestLibrary", "mortfolioTestLibrary\mortfolioTestLibrary.csproj", "{C425292C-A87C-46EB-B5D0-FC974D594F02}"
 EndProject

@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Login.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="OpenBrowser.rxrec" />
+    <Element value="Login.rxrec" />
+    <Element value="addTask.rxrec" />
+    <Element value="Logout.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>
