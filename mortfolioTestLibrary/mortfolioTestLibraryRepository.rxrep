@@ -1,0 +1,159 @@
+﻿<repository
+id="0dab9a80-1f08-43ed-8867-925587d4496d"
+name="mortfolioTestLibraryRepository"
+rxversion="8.1">
+	<codegen
+	classname="mortfolioTestLibraryRepository"
+	namespace="mortfolioTestLibrary">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="5c61cc92-7ca1-4762-bf42-fe9c8b33118d"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="45ae68e9-d80f-47fa-b911-fb57bac99e43"
+		isrooted="True"
+		name="LoginPage"
+		refpath="/dom[@domain='mortfolio.optiim.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b1e84e42-8a40-4310-81d0-7188a73a29ef"
+			name="MainContentUserNameI"
+			refimgid="00e9b24c-58ab-4887-905c-e18657f4feac"
+			refpath="/dom[@domain='mortfolio.optiim.com']//input[#'MainContent_UserName_I']"
+			searchtimeout="30000ms">
+				/dom[@domain='mortfolio.optiim.com']//input[#'MainContent_UserName_I']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="eabbb4b1-70cc-48eb-bbbd-6502486dc21d"
+			name="MainContentTxtPKeyI"
+			refimgid="f224c6d6-a3d1-4f81-b9d4-32805674d4e7"
+			refpath="/dom[@domain='mortfolio.optiim.com']//input[#'MainContent_txtPKey_I']"
+			searchtimeout="30000ms">
+				/dom[@domain='mortfolio.optiim.com']//input[#'MainContent_txtPKey_I']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="de307dd5-920c-4dc7-aaab-b49db09af344"
+			name="MainContentBtnOKCD"
+			refimgid="9dd33f1f-6b19-4f38-b7a3-469f184cb116"
+			refpath="/dom[@domain='mortfolio.optiim.com']//div[#'MainContent_btnOK_CD']"
+			searchtimeout="30000ms">
+				/dom[@domain='mortfolio.optiim.com']//div[#'MainContent_btnOK_CD']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="979a61ce-7b4c-4353-b85b-33eea4a2e9e5"
+			name="Login"
+			refimgid="d7d5f6e3-3c12-426a-a950-8584ee61ec44"
+			refpath="/dom[@domain='mortfolio.optiim.com' and @caption='Login Page']//div[#'MainContent_btnOK_CD']/span[@innertext='Login']"
+			searchtimeout="30000ms">
+				/dom[@domain='mortfolio.optiim.com']//div[#'MainContent_btnOK_CD']/span[@innertext='Login']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="97849101-f68d-4418-aeae-5f220745bf19"
+			name="PnlMainMainContentClbTSBtnAddSmallIte"
+			refimgid="910d2ae5-f7a1-4988-826e-222096271e7c"
+			refpath="/dom[11]//div[#'pnlMain_MainContent_clbTS_btnAddSmallItem_CD']"
+			searchtimeout="30000ms">
+				/dom[@domain='mortfolio.optiim.com']//div[#'pnlMain_MainContent_clbTS_btnAddSmallItem_CD']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c7d2e252-2fc3-4887-95eb-18d85aac952a"
+			name="PnlMainMainContentClbTSPpAddSmallItem"
+			refimgid="e1e565be-0f9d-4df6-ab55-587b7e673fd1"
+			refpath="/dom[11]//input[#'pnlMain_MainContent_clbTS_ppAddSmallItem_cmbItemType_I']"
+			searchtimeout="30000ms">
+				/dom[@domain='mortfolio.optiim.com']//input[#'pnlMain_MainContent_clbTS_ppAddSmallItem_cmbItemType_I']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="3b348bf5-7f7b-4df3-927e-63b032cdf637"
+			name="PnlMainMainContentClbTSPpAddSmallItem2"
+			refimgid="e8761f71-6084-4a32-be88-e95830d85a81"
+			refpath="/dom[11]//input[#'pnlMain_MainContent_clbTS_ppAddSmallItem_cmbItemTypeName_I']"
+			searchtimeout="30000ms">
+				/dom[@domain='mortfolio.optiim.com']//input[#'pnlMain_MainContent_clbTS_ppAddSmallItem_cmbItemTypeName_I']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8dfa1cea-f25b-4970-858c-c33d9ba10362"
+			name="PnlMainMainContentClbTSPpAddSmallItem1"
+			refimgid="2515727b-aa65-4614-b201-a182047b7436"
+			refpath="/dom[@domain='mortfolio.optiim.com' and @caption='Time Sheet Management']//input[#'pnlMain_MainContent_clbTS_ppAddSmallItem_txtSmallItemDesc_I']"
+			searchtimeout="30000ms">
+				/dom[@domain='mortfolio.optiim.com']//input[#'pnlMain_MainContent_clbTS_ppAddSmallItem_txtSmallItemDesc_I']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="5ca8fc2f-0095-4c38-b09c-23305b18bbf9"
+			name="PnlMainMainContentClbTSPpAddSmallItem3"
+			refimgid="fff489be-c971-4f4a-8c13-2835f563a5f5"
+			refpath="/dom[@domain='mortfolio.optiim.com' and @caption='Time Sheet Management']//div[#'pnlMain_MainContent_clbTS_ppAddSmallItem_btnSave_CD']"
+			searchtimeout="30000ms">
+				/dom[@domain='mortfolio.optiim.com']//div[#'pnlMain_MainContent_clbTS_ppAddSmallItem_btnSave_CD']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="dacaacda-a1a9-47d4-a910-7e25c1f1f490"
+			name="PnlMainMainContentClbTSGrdTimeSheetD"
+			refimgid="bb814f22-7368-44f7-8d9b-3c0300229277"
+			refpath="/dom[@domain='mortfolio.optiim.com' and @caption='Time Sheet Management']//img[#'pnlMain_MainContent_clbTS_grdTimeSheet_DXCBtn2Img']"
+			searchtimeout="30000ms">
+				/dom[@domain='mortfolio.optiim.com']//img[#'pnlMain_MainContent_clbTS_grdTimeSheet_DXCBtn2Img']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="c19be67d-82fd-4fdd-9df9-24ca942117b6"
+			name="MainMenuMnuMainDXI11T"
+			refimgid="128b191c-404f-44ef-9b86-71f0aa241cdd"
+			refpath="/dom[@domain='mortfolio.optiim.com' and @caption='Time Sheet Management' and @page='TimeSheetManagement.aspx' and @path='/ProjectManagement/TimeSheetManagement.aspx' and @browsername='Chrome' and @pageurl='http://mortfolio.optiim.com/ProjectManagement/TimeSheetManagement.aspx']//div[#'mainMenu_mnuMain_DXI11_T']"
+			searchtimeout="30000ms">
+				/dom[@domain='mortfolio.optiim.com']//div[#'mainMenu_mnuMain_DXI11_T']
+			</item>
+			<basepath>
+				/dom[@domain='mortfolio.optiim.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

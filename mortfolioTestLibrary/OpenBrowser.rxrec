@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f5c7bbeb-ce46-4221-8fa7-65c36988181c"
+mode="Global"
+rxversion="8.1">
+	<name>
+		OpenBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="mortfolioTestLibrary">
+	</codegen>
+	<variables>
+		<var
+		id="74e8f22d-4c02-4772-8551-52d422ac150d"
+		name="url">
+		</var>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Url"
+				variable="url">
+				</binding>
+			</bindings>
+			<url>
+				http://www.ranorex.com
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="0dab9a80-1f08-43ed-8867-925587d4496d"
+	name="mortfolioTestLibraryRepository"
+	relativepath="mortfolioTestLibraryRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="mortfolioTestLibraryRepository"
+		namespace="mortfolioTestLibrary">
+		</codegen>
+		<rootfolder
+		id="5c61cc92-7ca1-4762-bf42-fe9c8b33118d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

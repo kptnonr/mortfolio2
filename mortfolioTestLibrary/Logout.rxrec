@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a098d7a0-05c6-4329-8b37-dea97ca351f1"
+mode="Global"
+rxversion="8.1">
+	<name>
+		Logout
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Logout"
+	namespace="mortfolioTestLibrary">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0547546c-0d31-44ed-86b9-d439d3c9e4f5"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c19be67d-82fd-4fdd-9df9-24ca942117b6"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='mortfolio.optiim.com']//div[#'mainMenu_mnuMain_DXI11_T']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="0dab9a80-1f08-43ed-8867-925587d4496d"
+	name="mortfolioTestLibraryRepository"
+	relativepath="mortfolioTestLibraryRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="mortfolioTestLibraryRepository"
+		namespace="mortfolioTestLibrary">
+		</codegen>
+		<rootfolder
+		id="5c61cc92-7ca1-4762-bf42-fe9c8b33118d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Logout.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

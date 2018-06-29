@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9324759d-5f9b-4a40-948d-d891af82de31"
+mode="Desktop"
+rxversion="8.1">
+	<name>
+		addTask
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="addTask"
+	namespace="mortfolioTestLibrary">
+	</codegen>
+	<variables>
+		<var
+		id="4b5d02c6-ff2a-499d-a03a-807781c501df"
+		name="taskType">
+		</var>
+		<var
+		id="85e4559f-2458-445e-8f53-a17195dc4bd0"
+		name="taskName">
+		</var>
+		<var
+		id="7c87168c-9964-4143-9c8b-114e8da1bfbb"
+		name="taskDesc">
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e65e6635-c42b-4fb5-a6e0-7d35ed998d6d"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="97849101-f68d-4418-aeae-5f220745bf19"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='mortfolio.optiim.com']//div[#'pnlMain_MainContent_clbTS_btnAddSmallItem_CD']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence=""
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="fed36d26-224e-4058-a89b-7168efa765af">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="taskType">
+				</binding>
+			</bindings>
+			<info
+			id="c7d2e252-2fc3-4887-95eb-18d85aac952a"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='mortfolio.optiim.com']//input[#'pnlMain_MainContent_clbTS_ppAddSmallItem_cmbItemType_I']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence=""
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="fed36d26-224e-4058-a89b-7168efa765af">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="taskName">
+				</binding>
+			</bindings>
+			<info
+			id="3b348bf5-7f7b-4df3-927e-63b032cdf637"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='mortfolio.optiim.com']//input[#'pnlMain_MainContent_clbTS_ppAddSmallItem_cmbItemTypeName_I']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="Test"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="f68e87b9-c45e-4042-b9af-f7aef6092e49">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="taskDesc">
+				</binding>
+			</bindings>
+			<info
+			id="8dfa1cea-f25b-4970-858c-c33d9ba10362"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="-760,398,261,15"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						dxeEditArea_Office2003Blue dxeEditAreaSys
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						pnlMain_MainContent_clbTS_ppAddSmallItem_txtSmallItemDesc_I
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						250
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						ctl00$pnlMain$MainContent$clbTS$ppAddSmallItem$txtSmallItemDesc
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onblur"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onchange"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onfocus"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='mortfolio.optiim.com']//input[#'pnlMain_MainContent_clbTS_ppAddSmallItem_txtSmallItemDesc_I']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="37377289-2b3e-4131-bcde-9d78ac5d822d">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAxAXQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoWijZ
+WVo0IY5YFep96VY0UKFRRtGFwOlOooAKKKKACiiigCKRts6MQxG1hwpPcelCyRICFR1ycnETDn8q
+S4n8kqqruds4BOBgdSfzFRfaZ/8AnlB/39b/AOIpOcVo2vvCzHuttICJIN4LbjuhJ59enWlVoFIK
+xEEAgERHjPJ7VH9pn/55Qf8Af1v/AIij7TP/AM8oP+/rf/EUvaU/5l96CzJB9nAwISBgD/UnoOg6
+U5pkKkFXII7xt/hUP2mf/nlB/wB/W/8AiKPtM/8Azyg/7+t/8RR7Sn/MvvQWY21iht7YwmMEMTuC
+W5VT+HP61Iq2qLtS32gY4EJA45Ham/aZ/wDnlB/39b/4ij7TP/zyg/7+t/8AEUe0p/zL70Fn2Eu4
+obi3MQjUc7gXtywB7nHHNS5gIIMRO5QrZhPI9Dx0qP7TP/zyg/7+t/8AEUfaZ/8AnlB/39b/AOIo
+9pT/AJl96CzHv9nkDCSEuGxuDQk5x0zxTkeGMYjjZB6LER/SovtM/wDzyg/7+t/8RR9pn/55Qf8A
+f1v/AIij2lP+Zfegs+xP56ekn/ftv8KPPT0k/wC/bf4VB9pn/wCeUH/f1v8A4ij7TP8A88oP+/rf
+/EUe0p/zL70FmT+enpJ/37b/AAo89PST/v23+FQfaZ/+eUH/AH9b/wCIo+0z/wDPKD/v63/xFHtK
+f8y+9BZk/np6Sf8Aftv8KPPT0k/79t/hUH2mf/nlB/39b/4ij7TP/wA8oP8Av63/AMRR7Sn/ADL7
+0FmT+enpJ/37b/Cjz09JP+/bf4VB9pn/AOeUH/f1v/iKPtM//PKD/v63/wARR7Sn/MvvQWZP56ek
+n/ftv8KPPT0k/wC/bf4VB9pn/wCeUH/f1v8A4ij7TP8A88oP+/rf/EUe0p/zL70FmT+enpJ/37b/
+AAo89PST/v23+FQfaZ/+eUH/AH9b/wCIo+0z/wDPKD/v63/xFHtKf8y+9BZk/np6Sf8Aftv8KPPT
+0k/79t/hUH2mf/nlB/39b/4ij7TP/wA8oP8Av63/AMRR7Sn/ADL70FmT+enpJ/37b/Cjz09JP+/b
+f4VB9pn/AOeUH/f1v/iKPtM//PKD/v63/wARR7Sn/MvvQWZP56ekn/ftv8KPPT0k/wC/bf4VB9pn
+/wCeUH/f1v8A4ij7TP8A88oP+/rf/EUe0p/zL70FmT+enpJ/37b/AApksivC6APllIGY2/wqP7TP
+/wA8oP8Av63/AMRR9pn/AOeUH/f1v/iKPaU/5l96CzIdsvp/46//AMTSFJCDkE8NwFbuCPT3qf7T
+P/zyg/7+t/8AEUC6lDDfDHtJwdkhJH5qKr28P5l96FyMt1RvgTeW+0gfI/UZ7rV4HIBHQ1Svf+P2
+3/3H/mtOIMcofHDL/wB8/wD1/p/k8uIfsy/98/X39x/k8i9P8/5/z+bv8/5/z/8AXQxpD9mX/vn6
++/uP8nkIfsy/98/X39x/k8u/z/n/AD/9c/z/AJ/z/wDXAGMspPysmPdCaKfjPbP4Z/oaKdxWFS5E
+hO2KQrzhsDDY/H+eKMz/AGkcARY545z+f+f1pIoJIvlWUeWM7V2c8+pzyPyqcdOaQwooooAKKKKA
+KV5/x+Qf9c3/AJrTT9pF55O+227N+fIPTOMfep15/wAfkH/XN/5rUsluZLlnJARoTGfXk1iknUen
+RfqV9kRLm0dWZSMKNxJQjI9Rkcj3FRJLFNqEQjBC+VJuVkK85TGQR7/rUcOnyqGEixtiMoN8ryBu
+nYnCjjoM/pRawyw6nH5hwDFJtTzWk28p3bn8K05I9ibs0Nif3F/KjYn9xfyp1FHJHsO7G7E/uL+V
+GxP7i/lTqKOSPYLsbsT+4v5UbE/uL+VOoo5I9guxuxP7i/lRsT+4v5U6ijkj2C7G7E/uL+VGxP7i
+/lTqKOSPYLsbsT+4v5UbE/uL+VOoo5I9guxuxP7i/lRsT+4v5U6ijkj2C7G7E/uL+VGxP7i/lTqK
+OSPYLsbsT+4v5UbE/uL+VOoo5I9guxuxP7i/lRsT+4v5U6ijkj2C7G7E/uL+VGxP7i/lTqKOSPYL
+sbsT+4v5UbE/uL+VOoo5I9guxuxP7i/lRsT+4v5U6ijkj2C7G7E/uL+VGxP7i/lTqKOSPYLsbsT+
+4v5UyZFERIUA/Spajn/1LVnVjHklp0HFu6HR/wCrX6Cql7/x+2/+4/8ANatx/wCrX6Cql7/x+2/+
+4/8ANa1p7L0JZIvT/P8An/P5u/z/AJ/z/wDXavT/AD/n/P5u/wA/5/z/APXYB/n/AD/n/wCuf5/z
+/n/65/n/AD/n/wCuf5/z/n/64AYz2z+Gf6GijGe2fwz/AENFAE9FFFABRRRQAUUUUARywrKyt0ZQ
+QD7H/wDUKoW2nWlxaxTfZoF8xA+PLBxkZrTqtpn/ACC7T/rin/oIrOVKEndjUmiH+ybT/nhB/wB+
+hR/ZNp/zwg/79Cq095cWt7fyMwkjijQrHgjrnHf86e97qMUDO9suFYZcKGITHXaGPf3qfYQ/psfM
+yb+ybT/nhB/36FH9k2n/ADwg/wC/QqO2nmm1jidXgNurgBCAcnqOeD/+qtOj2EP6bDnZQ/sm0/54
+Qf8AfoUf2Taf88IP+/Qq/RR7CH9NhzMof2Taf88IP+/Qo/sm0/54Qf8AfoVfoo9hD+mw5mUP7JtP
++eEH/foUf2Taf88IP+/Qq/RR7CH9NhzMof2Taf8APCD/AL9Cj+ybT/nhB/36FX6KPYQ/psOZlD+y
+bT/nhB/36FH9k2n/ADwg/wC/Qq/RR7CH9NhzMof2Taf88IP+/Qo/sm0/54Qf9+hV+ij2EP6bDmZQ
+/sm0/wCeEH/foUf2Taf88IP+/Qq/RR7CH9NhzMof2Taf88IP+/Qo/sm0/wCeEH/foVfoo9hD+mw5
+mUP7JtP+eEH/AH6FH9k2n/PCD/v0Kv0Uewh/TYczKH9k2n/PCD/v0KP7JtP+eEH/AH6FX6KPYQ/p
+sOZlD+ybT/nhB/36FH9k2n/PCD/v0Kv0Uewh/TYczKH9k2n/ADwg/wC/Qo/sm0/54Qf9+hV+ij2E
+P6bDmZQ/sm0/54Qf9+hR/ZNp/wA8IP8Av0Kv0Uewh/TYczKH9k2n/PCD/v0KbJY29oFljhiDb1QF
+UAI3MF6/jWjVbUP+Pdf+u0X/AKMWj2FPt+LDmZYUbVA9BiqV8cXlvgZ+R/5rV6qN/wD8flv/ALj/
+AM1reKtoQxyM+BlV/wC+v/rfX/Jp25+6r/31/wDW+v8Ak01en+f8/wCfzd/n/P8An/67ANz91X/v
+r/631/yaNz91X/vr/wCt9f8AJo/z/n/P/wBc/wA/5/z/APXAFBJHzKM+3P8ASikxntRSAtUUUUhh
+RRRQAUUUUAFVtM/5Bdp/1xT/ANBFFFAGZqH/ACHW/wCvNv61zx/5Aw/6+D/6CKKKn+vxH/X4HSXH
+/Ie0z/rm38jWzRRV9P67khRRRSGFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFVtQ/491/67Rf+jFoooAs1Qv/APj8t/8ArnJ/7LRRTW4mPHQ/59ace/4/1oop
+gB7/AI/1oPf8f60UUANfr/n1oooqRn//2Q==
+			</helperscreenshot>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="37;22"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ab56eb5a-6afa-4f88-b6b9-78627add1642"
+		sx="-679"
+		sy="466"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5ca8fc2f-0095-4c38-b09c-23305b18bbf9"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="-716,444,66,26"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						dxb
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						pnlMain_MainContent_clbTS_ppAddSmallItem_btnSave_CD
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='mortfolio.optiim.com']//div[#'pnlMain_MainContent_clbTS_ppAddSmallItem_btnSave_CD']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="278eaec9-d0c5-4d67-802f-4e7debf1f00c">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABLAPYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAbLIIonkbJCKWOPas7+3bX/nnN+Q/xq7e/wDHjP8A9c2/
+lVXSf+QbF+P8zWcm09DohGHI5SV9Rn9u2v8Azzm/If40f27a/wDPOb8h/jVp7iKOURMTvIyFCk/y
++lI91FGu5/MUDuY2/wAKLyDmpfy/j/wCt/btr/zzm/If40f27a/885vyH+NXkdXRXU5VhkH2pkdx
+DK7JHNG7L95VYEilzSDmpfy/j/wCp/btr/zzm/If40f27a/885vyH+NX6KOaQc1L+X8f+AUP7dtf
++ec35D/Gj+3bX/nnN+Q/xq/WbroH2NDjnzB/I0nKRdNUpyUeX8TWooorY5AooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAhvf+PGf/AK5t/Kqukn/iXRfj/M1avf8Ajxn/AOub
+fyqlpZ/4l8X4/wAzWU9zoj/Bfr+hFdPIusR+UnmPsGFzjP3u9Q6gtwUknlttmVCFvNBAG4HpVqe0
+eS9W5SXaVXGMfX396bcWk88Rja4GDjsT/WtIzjbVmDi77E9sy/2XEXJC+SM49MVBEzQG1VzFNF0h
+kTKsPlPUdCMf/qq1bp5NvHFnOxQufXFMZba1DT+UkZJwzInJyfbk81jcuxUhurmV9scr5khaRDIq
+AZyMEAc45781I97LJCZoS2x2RFAC5BPUjPGecc9xU9sLYoJbeJFBJ5CbTnOD/L9KkKRmMxlF2Hqu
+OD+FDkFhllLK6OJc5R9oLFd2MA87eM81X1w5s0/66D+Rq5GiRIEiRUUdFUYFUdaP+iJ/10H8jSbN
+qC/eI2KKKK6DlCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigCK6RpLWZEG
+WZGAHvism3i1S3iEaW6FR0yw/wAa26KmUVI1hVcFayZkZ1b/AJ9o/wDvof40Z1b/AJ9o/wDvof41
+r0VPs0X7f+6v6+ZkZ1b/AJ9o/wDvof402Q6hmL7RAix+dHkgj++PetmswC5uJ5InnIaOYOYnUYMY
+cFSpHPQY796appO4nWurcqKzyXkIkaEwGMGeTDA5wr88596dHLqkhcC2i3I21hnocA+voRWuYYip
+UxrgggjHY9fzqK1/195/12H/AKAlNwTIhUcelyhnVv8An2j/AO+h/jUF1a6ndbRJCAo7Kwx/Ot6i
+p9mjVYhp3UV/XzCiiitDmCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACq95bNMUlhfZPFkoT9056gj0NWKKAKQub1owBp7LIePmlXaPfg5x+FS2Vu1vAfNYNNI
+xeRh0LH09gMD8KsUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="6;13"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="cfb9f22d-7045-4011-8c4a-d3ad167545e6"
+		sx="-73"
+		sy="440"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dacaacda-a1a9-47d4-a910-7e25c1f1f490"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, imgtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="imgtag"
+				rect="-79,427,16,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						dxIcon_save_save_16x16 dx-vam
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						pnlMain_MainContent_clbTS_grdTimeSheet_DXCBtn2Img
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						img
+					</attribute>
+					<attribute
+					name="alt"
+					type="System.String">
+						&#32;
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						16
+					</attribute>
+					<attribute
+					name="hspace"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="src"
+					type="System.String">
+						http://mortfolio.optiim.com/DXR.axd?r=1_36-2zf1f
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Kaydet
+					</attribute>
+					<attribute
+					name="vspace"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						16
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='mortfolio.optiim.com']//img[#'pnlMain_MainContent_clbTS_grdTimeSheet_DXCBtn2Img']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="75194966-44c2-48f8-9852-d3d1f2a77ade">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAwAGADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoPMf/
+AJ4Sfmv+NHmP/wA8JPzX/GpKKdxWI/Mf/nhJ+a/40eY//PCT81/xqSii4WI/Mf8A54Sfmv8AjTGG
+5txgmBxjhwP5NReXcdnEJJAxBbb8o/z6VT/t21/55zfkP8aTmkaxozmrxRb2/wDTK4/7+/8A2VG3
+/plcf9/f/sqqf27a/wDPOb8h/jVqyvor3f5SuNmM7gO//wCqhVEwlQqRV2hdv/TK4/7+/wD2VG3/
+AKZXH/f3/wCyqxRVXMrFfb/0yuP+/v8A9lSqNrbhBMTjHLg/zap6KVwsFFFFIYUUUUAZniD/AI8U
+/wCug/kajguENzci4nYAOQoMpXuenPsKk8Qf8eKf9dB/I1UiJhu7gS2TTGSUhAUHqx4zx0pR+Jm0
+/wCFH5/oDXT/AGuALNwZsYWUtlcjGeT71b0r/j+1D/rp/VqpyH7TPZSW9oY13BiVTHGQeeKuaV/x
+/ah/10/q1Et0FL+HP5fmPvbo+f5CMF5AJPTn1qF2mt8O+xOcYU8n3+lJqcDxXYuhH5kfBYe49aqv
+dyXy+UsQd92VK/w1LLirpW26m7bS+fAsnrUlQ2kJt7WOInJUc/Wpqs53a+hF9oj/ANv/AL9t/hR9
+oj/2/wDv23+FJRV2RF2L9oj/ANv/AL9t/hR9oj/2/wDv23+FJRRZBdlfUI472BY97pht2fKY9j/j
+VaKCSK+tWe7mmHmEbXVgB8jc81o1Q0+AmWMSyyie3OZEdy4fggMM9uTUuMdzRVZ8vJfQopb3Yt4z
+DfSgeVCQhJxlzjHHYVe0hPs6SvM7PI7lWwjHlWIznvmtXA9KpWRBhYjkGWT/ANDakopu4OpPl5b6
+Fj7RH/t/9+2/wo+0R/7f/ftv8KSirsjO7F+0R/7f/ftv8KPtEf8At/8Aftv8KSiiyC7P/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="0dab9a80-1f08-43ed-8867-925587d4496d"
+	name="mortfolioTestLibraryRepository"
+	relativepath="mortfolioTestLibraryRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="mortfolioTestLibraryRepository"
+		namespace="mortfolioTestLibrary">
+		</codegen>
+		<rootfolder
+		id="5c61cc92-7ca1-4762-bf42-fe9c8b33118d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		addTask.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
