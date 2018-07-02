@@ -65,6 +65,26 @@ rxversion="8.1">
 					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="b58878ea-496c-408d-934b-9b234fbaa818"
+			name="Login"
+			ref="4354ee9d-2987-4edc-87a5-645c3443240a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="mortfolioTest.Global_userName"
+					datasourceid="95bc5fdd-075b-46c2-9919-64eaf71d827a"
+					variableid="01da8c4e-c9b8-46a8-a00e-3c5f12372d94"
+					variablename="userName">
+					</var>
+					<var
+					dataname="mortfolioTest.Global_password"
+					datasourceid="95bc5fdd-075b-46c2-9919-64eaf71d827a"
+					variableid="0ff708a0-ff8d-4b13-bf73-9448e0172dab"
+					variablename="password">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			id="e3b0e0cf-8c30-4bab-869b-4182495934ac"
 			name="mortfolioTest"
@@ -89,6 +109,10 @@ rxversion="8.1">
 							name="OpenBrowser">
 							</testmodule>
 						</setup>
+						<testmodule
+						id="b58878ea-496c-408d-934b-9b234fbaa818"
+						name="Login">
+						</testmodule>
 					</testcase>
 				</testcase>
 			</testsuite>
