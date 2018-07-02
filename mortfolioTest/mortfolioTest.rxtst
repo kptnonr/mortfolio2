@@ -36,12 +36,14 @@ rxversion="8.1">
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="5f38a0fa-b242-4d16-b952-7eb3278ede49"
 			name="Logout"
 			ref="a098d7a0-05c6-4329-8b37-dea97ca351f1"
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="7ca23fa5-db99-442d-8274-cebe64237e44"
 			name="Login"
 			ref="4354ee9d-2987-4edc-87a5-645c3443240a"
@@ -92,6 +94,7 @@ rxversion="8.1">
 				</parameters>
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="9cd8ebbc-a3ed-42bc-93d9-9c8aa5df779a"
 			name="addTask"
 			ref="9324759d-5f9b-4a40-948d-d891af82de31"
