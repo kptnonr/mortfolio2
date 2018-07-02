@@ -35,34 +35,6 @@ rxversion="8.1">
 					</var>
 				</databinding>
 			</testmodule>
-			<testmodule
-			enabled="False"
-			id="5f38a0fa-b242-4d16-b952-7eb3278ede49"
-			name="Logout"
-			ref="a098d7a0-05c6-4329-8b37-dea97ca351f1"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			enabled="False"
-			id="7ca23fa5-db99-442d-8274-cebe64237e44"
-			name="Login"
-			ref="4354ee9d-2987-4edc-87a5-645c3443240a"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="mortfolioTest.Global_userName"
-					datasourceid="95bc5fdd-075b-46c2-9919-64eaf71d827a"
-					variableid="01da8c4e-c9b8-46a8-a00e-3c5f12372d94"
-					variablename="userName">
-					</var>
-					<var
-					dataname="mortfolioTest.Global_password"
-					datasourceid="95bc5fdd-075b-46c2-9919-64eaf71d827a"
-					variableid="0ff708a0-ff8d-4b13-bf73-9448e0172dab"
-					variablename="password">
-					</var>
-				</databinding>
-			</testmodule>
 			<testcase
 			id="95bc5fdd-075b-46c2-9919-64eaf71d827a"
 			name="TestCase">
@@ -93,33 +65,6 @@ rxversion="8.1">
 					</param>
 				</parameters>
 			</testcase>
-			<testmodule
-			enabled="False"
-			id="9cd8ebbc-a3ed-42bc-93d9-9c8aa5df779a"
-			name="addTask"
-			ref="9324759d-5f9b-4a40-948d-d891af82de31"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="mortfolioTest.Global_TaskType"
-					datasourceid="95bc5fdd-075b-46c2-9919-64eaf71d827a"
-					variableid="4b5d02c6-ff2a-499d-a03a-807781c501df"
-					variablename="taskType">
-					</var>
-					<var
-					dataname="mortfolioTest.Global_TaskName"
-					datasourceid="95bc5fdd-075b-46c2-9919-64eaf71d827a"
-					variableid="85e4559f-2458-445e-8f53-a17195dc4bd0"
-					variablename="taskName">
-					</var>
-					<var
-					dataname="mortfolioTest.Global_TaskDescription"
-					datasourceid="95bc5fdd-075b-46c2-9919-64eaf71d827a"
-					variableid="7c87168c-9964-4143-9c8b-114e8da1bfbb"
-					variablename="taskDesc">
-					</var>
-				</databinding>
-			</testmodule>
 			<testcase
 			id="e3b0e0cf-8c30-4bab-869b-4182495934ac"
 			name="mortfolioTest"
@@ -144,18 +89,6 @@ rxversion="8.1">
 							name="OpenBrowser">
 							</testmodule>
 						</setup>
-						<testmodule
-						id="7ca23fa5-db99-442d-8274-cebe64237e44"
-						name="Login">
-						</testmodule>
-						<testmodule
-						id="9cd8ebbc-a3ed-42bc-93d9-9c8aa5df779a"
-						name="addTask">
-						</testmodule>
-						<testmodule
-						id="5f38a0fa-b242-4d16-b952-7eb3278ede49"
-						name="Logout">
-						</testmodule>
 					</testcase>
 				</testcase>
 			</testsuite>
